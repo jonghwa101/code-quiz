@@ -1,0 +1,55 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+.container {
+    padding: 0;
+    margin: 0;
+    display: block;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-grid {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.hide {
+    display: none !important;
+}
+
+p {
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+#start {
+    display: flex;
+    justify-content: center;
+}
+
+#result {
+    font-size: 50px;
+    font-weight: bold;
+    border-top: 3px solid black;
+    text-align: center;
+}
+
+.timer {
+    display: flex;
+}
+
+.timer p {
+    font-size: 30px;
+}
+
+#highscore {
+    display: flex;
+    justify-content: center;
+}
